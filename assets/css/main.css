@@ -2188,7 +2188,7 @@
 			}
 
 			#main > section.two {
-				background-color: #fff;
+				background-color: #fff !important;
 			}
 
 			#main > section.three {
