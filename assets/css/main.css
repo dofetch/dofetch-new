@@ -1,13 +1,17 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
-/* Reset */
+.myphoto{border-radius:100%;}
+
+.intro-h2{font-size:1.5em;}
+.img-responsive{max-width:100%;}
+.pencilart img{margin:0 auto; display:block;}
+
+header h2{color:#000;}
+
+
+
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -84,9 +88,6 @@
 	.container {
 		width: 1400px;
 	}
-	#top .alt {color: #000 !important;
-	font-size: 1.5em;
-}
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
 
@@ -1710,15 +1711,14 @@
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+			width: 60px;
+			height: 60px;
 			
 		}
 
 			.image.avatar48 img {
-				width: 58px;
-				height: 58px;
-				border-radius: 100%;
+				width: 48px;
+				height: 48px;
 			}
 
 		.image.fit {
@@ -1948,10 +1948,12 @@
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
+			color:#000;
 		}
 
 			.item header h3 {
 				font-size: 1em;
+				color:#000;
 			}
 
 /* Icons */
@@ -2050,7 +2052,7 @@
 			position: relative;
 			color: #fff;
 			font-weight: 600;
-			font-size: .8em;
+			font-size: 0.8em;
 			line-height: 1em;
 		}
 
@@ -2142,7 +2144,9 @@
 				}
 
 /* Main */
-
+.dofetch{width: 120px;
+margin: 45px auto 0px;
+	display: block;}
 	#main {
 		margin-left: 375px;
 	}
@@ -2188,19 +2192,22 @@
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
+				background-attachment:fixed;
 			}
 
 			#main > section.two {
-				background-color: #fff !important;
+				background-color: #fff;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #fff;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #02CEDC;
+				color:#fff;
 			}
+#main > section.four h2{color:#fff;}
 
 /* Wide */
 
