@@ -2190,9 +2190,9 @@ margin: 45px auto 0px;
 			}
 
 			#main > section.one {
-				background-color: #81918E;
+				background-color: #fff;
 				background-image: url("../../images/banner.png");
-				background-attachment:fixed;
+				/*background-attachment:fixed;*/
 			}
 
 			#main > section.two {
